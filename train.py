@@ -23,6 +23,7 @@ tag_type = "upos"
 tag_dictionary = corpus.make_tag_dictionary(tag_type=tag_type)
 print(tag_dictionary.idx2item)
 
+#
 # initialize embeddings
 embedding_types: List[TokenEmbeddings] = [
     WordEmbeddings("glove"),
